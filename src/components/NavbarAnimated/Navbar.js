@@ -54,7 +54,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg">
 
-      <NavLink style={{ marginLeft: '5%' }} className="navbar-brand navbar-logo" to="/" exact>
+      <NavLink style={{ marginLeft: '5%' }} className="navbar-brand navbar-logo" to="/tesseratasarim" exact>
         <img style={{ height: '33px' }} src={logo} />
       </NavLink>
 
@@ -78,7 +78,7 @@ const Navbar = () => {
           </div>
 
           <li className="nav-item active">
-            <NavLink className="nav-link" to="/" exact>
+            <NavLink className="nav-link" to="/tesseratasarim" exact>
               <i
                 className="fas fa-home">
               </i>
@@ -87,7 +87,7 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about" exact>
+            <NavLink className="nav-link" to="/tesseratasarim/about" exact>
               <i
                 className="far fa-address-card">
               </i>
@@ -96,7 +96,7 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/shop" exact>
+            <NavLink className="nav-link" to="/tesseratasarim/shop" exact>
               <i
                 className="fas fa-tags">
               </i>
@@ -104,7 +104,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/contact" exact>
+            <NavLink className="nav-link" to="/tesseratasarim/contact" exact>
               <i className="fas fa-paper-plane"></i>
               {localString.languages(lang).contact}
             </NavLink>
