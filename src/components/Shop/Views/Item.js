@@ -21,7 +21,7 @@ export default function Item({ item }) {
         //     </div>
         // </Link>
 
-        <Link to={`/shop/${item.id}`} className="itemBox" >
+        <Link to={`/tesseratasarim/shop/${item.id}`} className="itemBox" >
             <img className="itemImage" key={item.id} src={item.data.ProductImage} alt={item.data.ProductName} />
             <div className="headerDescriptionHolder">
                 {lang === "EN" ? <div> <p className="itemHeader">
