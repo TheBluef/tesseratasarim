@@ -53,9 +53,9 @@ function MainPage() {
 
       </div>
       <div className="containerMenu" style={{ width: width * 0.9, marginTop: '50%' }}>
-        <InfoCards className="itemMenu" img={contact} text={localString.languages(lang).contact} toLink={"contact"} />
-        <InfoCards className="itemMenu" img={products} text={localString.languages(lang).ourProducts} toLink={"shop"} />
-        <InfoCards className="itemMenu" img={aboutUs} text={localString.languages(lang).aboutUs} toLink={"about"} />
+        <InfoCards className="itemMenu" img={contact} text={localString.languages(lang).contact} toLink={"tesseratasarim/contact"} />
+        <InfoCards className="itemMenu" img={products} text={localString.languages(lang).ourProducts} toLink={"tesseratasarim/shop"} />
+        <InfoCards className="itemMenu" img={aboutUs} text={localString.languages(lang).aboutUs} toLink={"tesseratasarim/about"} />
 
       </div>
       <p style={{marginTop:'5%'}} className='mainPageText'>{localString.languages(lang).aboutUsTextFirst}</p>
