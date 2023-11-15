@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/tesseratasarim/static/css/main.4c8c50a6.chunk.css",
+    "main.js": "/tesseratasarim/static/js/main.e8438e55.chunk.js",
+    "main.js.map": "/tesseratasarim/static/js/main.e8438e55.chunk.js.map",
+    "runtime-main.js": "/tesseratasarim/static/js/runtime-main.19e22f0d.js",
+    "runtime-main.js.map": "/tesseratasarim/static/js/runtime-main.19e22f0d.js.map",
+    "static/css/2.bd932d36.chunk.css": "/tesseratasarim/static/css/2.bd932d36.chunk.css",
+    "static/js/2.8e7fa0a7.chunk.js": "/tesseratasarim/static/js/2.8e7fa0a7.chunk.js",
+    "static/js/2.8e7fa0a7.chunk.js.map": "/tesseratasarim/static/js/2.8e7fa0a7.chunk.js.map",
+    "index.html": "/tesseratasarim/index.html",
+    "static/css/2.bd932d36.chunk.css.map": "/tesseratasarim/static/css/2.bd932d36.chunk.css.map",
+    "static/css/main.4c8c50a6.chunk.css.map": "/tesseratasarim/static/css/main.4c8c50a6.chunk.css.map",
+    "static/js/2.8e7fa0a7.chunk.js.LICENSE.txt": "/tesseratasarim/static/js/2.8e7fa0a7.chunk.js.LICENSE.txt",
+    "static/media/ContactUsNew.130f7f56.jpg": "/tesseratasarim/static/media/ContactUsNew.130f7f56.jpg",
+    "static/media/UndefinedProduct.426ad3c3.png": "/tesseratasarim/static/media/UndefinedProduct.426ad3c3.png",
+    "static/media/aboutUsCard.2e1c80ce.jpg": "/tesseratasarim/static/media/aboutUsCard.2e1c80ce.jpg",
+    "static/media/bgImageClipped.80bbca53.svg": "/tesseratasarim/static/media/bgImageClipped.80bbca53.svg",
+    "static/media/check.faf20032.png": "/tesseratasarim/static/media/check.faf20032.png",
+    "static/media/cross.1a320992.png": "/tesseratasarim/static/media/cross.1a320992.png",
+    "static/media/handmade.d9deb3e0.jpg": "/tesseratasarim/static/media/handmade.d9deb3e0.jpg",
+    "static/media/logoT.d46e2e5a.png": "/tesseratasarim/static/media/logoT.d46e2e5a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19e22f0d.js",
+    "static/css/2.bd932d36.chunk.css",
+    "static/js/2.8e7fa0a7.chunk.js",
+    "static/css/main.4c8c50a6.chunk.css",
+    "static/js/main.e8438e55.chunk.js"
+  ]
+}
