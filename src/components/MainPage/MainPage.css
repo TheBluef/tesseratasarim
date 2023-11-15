@@ -1,0 +1,32 @@
+.backgroundImage{
+    width: 100%;
+    background-color: black;
+    z-index: -3;
+}
+
+.gridMP{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.mainPageText{
+    position: relative;
+    width: 35%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.containerMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.itemMenu{
+    flex: 1 1 150px;
+}

@@ -1,0 +1,83 @@
+.mainDiv{
+    width: 90%;
+    margin-bottom: 2%;
+    flex-direction: row;
+    display: flex;
+    text-decoration: none;
+    height: 300px;
+    color: black;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.397);
+    border-bottom-right-radius: 50px;
+}
+
+.mainDiv:hover{
+    background: rgba(32, 1, 1, 0.808);
+    transition: 0.85s;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+}
+
+.itemHeader{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 1%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.itemDescription{
+    text-decoration: none;
+    width: 97%;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.headerDescriptionHolder{
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 5%;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.imageSize{
+    min-width: 130px;
+}
+  
+.itemBox{
+    max-width: 300px;
+    width: 90%;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    color: black;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.397);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.itemBox:hover{
+    background: rgba(0, 0, 0, 0.808);
+    transition: 0.4s;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+}
+
+.itemImage{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+ 

@@ -1,0 +1,76 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: rgba(214, 214, 214, 0.568);
+  color: black;
+  text-align: center;
+  border: 1px;
+  border-color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.footerSpacer{
+  width: 15px;
+  height: 300px;
+}
+
+.addressFrame{
+  width: 15%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.addressText{
+  font-family:  Georgia, serif;
+}
+
+.whatsapp_float {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 13%;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px rgb(120, 167, 108);
+  z-index: 100;
+  transition: 0.4s;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 10px;
+  }
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 13%;
+      right: 10px;
+      font-size: 22px;
+  }
+}
+
+.whatsapp_float:hover {
+  background-color: #198a42;
+  box-shadow: 2px 2px 3px rgb(83, 117, 75);
+  transition: 0.4s;
+}
