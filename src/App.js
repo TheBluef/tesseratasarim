@@ -26,12 +26,12 @@ function App() {
         <Navbar />
         <div style={{ justifyContent: 'center', display: 'flex' }}>
           <Switch>
-            <Route path='/' exact component={Home} />
-            <Route path='/mainpage' component={MainPage} />
-            <Route path='/about' component={About} />
-            <Route path='/shop' exact component={Shop} />
-            <Route path='/shop/:id' component={ItemDetail} />
-            <Route path='/contact' component={Contact} />
+            <Route path='/tesseratasarim' exact component={Home} />
+            <Route path='/tesseratasarim/mainpage' component={MainPage} />
+            <Route path='/tesseratasarim/about' component={About} />
+            <Route path='/tesseratasarim/shop' exact component={Shop} />
+            <Route path='/tesseratasarim/shop/:id' component={ItemDetail} />
+            <Route path='/tesseratasarimnp/contact' component={Contact} />
           </Switch>
           <div style={{ height: '35px', backgroundColor: 'white' }} />
         </div>
